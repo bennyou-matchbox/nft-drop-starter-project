@@ -1,0 +1,21 @@
+{
+    "name": "HAMSTER_BADGE",
+    "symbol": "HM",
+    "description": "Hamster Mayhem Collection. This is the number 1/3.",
+    "seller_fee_basis_points": 500,
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "9VTfk9jrh3f4b4fh4KFKCyczky4R3KaE34PiAeoc6VJe",
+          "share": 100
+        }
+      ]
+    }
+  }

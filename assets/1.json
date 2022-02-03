@@ -1,0 +1,21 @@
+{
+  "name": "HAMSTER_POSTER",
+  "symbol": "HM",
+  "description": "Hamster Mayhem Collection. This is the number 2/3.",
+  "seller_fee_basis_points": 500,
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "9VTfk9jrh3f4b4fh4KFKCyczky4R3KaE34PiAeoc6VJe",
+        "share": 100
+      }
+    ]
+  }
+}
