@@ -522,10 +522,6 @@ const renderDropTimer = () => {
 
   // Create render function
 const renderGrid = () => {
-    const items = candyMachine.state.;
-    console.log("Hmmmppppfff")
-    console.log(items);
-
 
     /*return  <div className="gif-grid">
               {items.map((item) => (
@@ -534,7 +530,6 @@ const renderGrid = () => {
                 </div>
               ))}
             </div>;*/
-    return <p>place holder</p>
   };
 
   return (
