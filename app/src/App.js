@@ -4,7 +4,7 @@ import twitterLogo from './assets/twitter-logo.svg';
 import CandyMachine from './CandyMachine';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'hamstermayhem1';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
@@ -69,8 +69,8 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
+          <p className="header">🐹 Hamster Mayhem Drop</p>
+          <p className="sub-text">The most exciting Hamster NFT drop in history!</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {/* Check for walletAddress and then pass in walletAddress */}

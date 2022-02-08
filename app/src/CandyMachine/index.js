@@ -503,7 +503,7 @@ const CandyMachine = ({ walletAddress }) => {
     });
   };
 
-  // Create render function
+// Create render function
 const renderDropTimer = () => {
     // Get the current date and dropDate in a JavaScript Date object
     const currentDate = new Date();
@@ -517,25 +517,43 @@ const renderDropTimer = () => {
     }
 
     // Else let's just return the current drop date
-    return <p>{`Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>;
+    return <p>{`Hamster Mayhem NFT Drop Date: ${candyMachine.state.goLiveDateTimeString}`}</p>;
   };
 
-    return (
+  // Create render function
+const renderGrid = () => {
+    const items = candyMachine.state.;
+    console.log("Hmmmppppfff")
+    console.log(items);
+
+
+    /*return  <div className="gif-grid">
+              {items.map((item) => (
+                <div className="gif-item">
+                  <img src={item.gif} />
+                </div>
+              ))}
+            </div>;*/
+    return <p>place holder</p>
+  };
+
+  return (
     candyMachine && candyMachine.state && (
       <div className="machine-container">
         {renderDropTimer()}
         <p>{`Items Minted: ${candyMachine.state.itemsRedeemed} / ${candyMachine.state.itemsAvailable}`}</p>
           {/* Check to see if these properties are equal! */}
           {candyMachine.state.itemsRedeemed === candyMachine.state.itemsAvailable ? (
-            <p className="sub-text">Sold Out 🙊</p>
+            <p className="sub-text">Hamster NFTs are Sold Out 😭</p>
           ) : (
             <button
               className="cta-button mint-button"
               onClick={mintToken}
             >
-              Mint NFT
+              Mint Hamster Mayhem NFT
             </button>
           )}
+          {renderGrid()}
       </div>
     )
   );
